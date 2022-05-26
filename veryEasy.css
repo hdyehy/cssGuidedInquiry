@@ -1,0 +1,25 @@
+
+div {
+    
+    width: 50px;
+    float: left;
+    height: 50px;
+}
+
+.odd div:nth-child(odd) {
+    background-color:black;
+}
+
+.even div:nth-child(even) {
+    background-color: black;
+}
+
+body {
+    width: 400px;
+    margin: 100px auto;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 500px;
+}
